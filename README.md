@@ -7,8 +7,12 @@ text generation based on book Winston Churchil
 
 
 词模型下训练了50个epoch， loss降到1.4855
+
 55552/55552 [==============================] - 11s 199us/sample - loss: 1.4855
 
+词模型下训练了50个epoch， loss降到2.1065
+
+276730/276730 [==============================] - 53s 193us/sample - loss: 2.1065
 
 测试：
 直接python test.py 即可执行，内置了一句话用于预测，默认以词模型运行预测
