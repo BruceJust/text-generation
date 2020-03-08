@@ -17,9 +17,11 @@ text generation based on book Winston Churchil
 测试：
 直接python test.py 即可执行，内置了一句话用于预测，默认以词模型运行预测
 也可以指定参数来选择模型和自定义初始文本
+
 python test.py 
   --type='char' 
   --input='His object in coming to New York was to engage officers for'
+
 注意：词模型下请保证输入词长度大于10， 字符模型下输入字符长度超过50.
 
 
