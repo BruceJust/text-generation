@@ -19,7 +19,7 @@ text generation based on book Winston Churchil
 也可以指定参数来选择模型和自定义初始文本
 
 python test.py 
-  --type='char' 
+  --mode=char
   --input='His object in coming to New York was to engage officers for'
 
 注意：词模型下请保证输入词长度大于10， 字符模型下输入字符长度超过50.
