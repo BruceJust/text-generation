@@ -51,6 +51,6 @@ his object in coming to new york was to engage officers for the porte afd tf the
 the coer wfs was pe this sare that in toile an anpinsaoien of the sare oo the han wha sare tho war toene to hese tored an tnen bo the pooe of the
 prine of th
 
-从以上测试结果可以看到，char模型可以正常输出，但是很多单词看起来很奇怪，并不使真实的单词。
+从以上测试结果可以看到，char模型可以正常输出，但是很多单词看起来很奇怪，并不是真实的单词。
 
 word模型下通顺性更好
