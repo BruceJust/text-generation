@@ -14,6 +14,8 @@ text generation based on book Winston Churchil
 
 276730/276730 [==============================] - 53s 193us/sample - loss: 2.1065
 
+训练建议：该案例最好在GPU下训练。如果手头暂时没有GPU，由于数据量不大，可以上Google的Colab试试，有免费的16G GPU。
+
 测试：
 直接python test.py 即可执行，内置了一句话用于预测，默认以词模型运行预测
 也可以指定参数来选择模型和自定义初始文本
@@ -42,3 +44,6 @@ his object in coming to new york was to engage officers for the porte afd tf the
 the coer wfs was pe this sare that in toile an anpinsaoien of the sare oo the han wha sare tho war toene to hese tored an tnen bo the pooe of the
 prine of th
 
+
+从以上测试结果可以看到，char模型可以正常输出，但是很多单词看起来很奇怪，并不使真实的单词。
+word模型下通顺性更好
